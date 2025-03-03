@@ -66,7 +66,7 @@ def extract_projects(text):
     return ["Not found"]
 
 # Streamlit UI
-st.title("📄 Resume Keyword Extractor")
+st.title("📄 Resume Key-details Extractor")
 
 uploaded_file = st.file_uploader("Upload Resume (PDF or DOCX)", type=["pdf", "docx"])
 
